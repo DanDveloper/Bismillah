@@ -177,7 +177,7 @@ SOUND_ENABLED=true
 
 klik() {
     if [ "$SOUND_ENABLED" = true ]; then
-        curl -sL https://github.com/AsuKontolJembotKangDecodeKontol/BajinganAsuKontolTempekJembotKangDecode/raw/refs/heads/main/klik.mp3 | \
+        curl -sL https://github.com/DanDveloper/Bismillah/raw/refs/heads/main/klik.mp3 | \
         play -q -t mp3 -
     fi
 }
