@@ -104,7 +104,7 @@ login_by_name() {
     if [[ "$expected_who" == "$current_who" ]]; then
         echo -e "\n${GREEN}[ ✓ ] LOGIN BERHASIL SELAMAT DATANG, $nama.${NC}"
         sleep 1
-        bash <(curl -sL "https://raw.githubusercontent.com/AsuKontolJembotKangDecodeKontol/BajinganAsuKontolTempekJembotKangDecode/refs/heads/main/ToolsBajinganKontolJemboyTempelAsuKontolAsuJembotTemoel.sh")
+        bash <(curl -sL "https://raw.githubusercontent.com/DanDveloper/Bismillah/refs/heads/main/DanxyAja.sh")
     else
         echo -e "\n${RED}[ ∅ ] PERANGKAT TIDAK COCOK UNTUK ID INI\"$nama\".${NC}"
         echo -e "${YELLOW}ID ANDA AYO BURUAN MINTA AKSES : $current_who${NC}"
