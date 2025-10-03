@@ -64,7 +64,6 @@ USER_MAP=(
     "6283144811104|u0_a393"
     "6287810951618|u0_a238"
     "@Razor|u0_a485"
-    "Danxy|u0_a369"
                     # <-- masukkan nama|whoami baru di sini
 )
 # ---------- FUNGSI ----------
